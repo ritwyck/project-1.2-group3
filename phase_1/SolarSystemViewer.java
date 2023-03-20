@@ -22,8 +22,10 @@ public class SolarSystemViewer
         // planet = new JLabel(sun);
         // SolarSystemViewer.add(planet);
 
-        final int SOLAR_SYSTEM_WIDTH = 1400;
-        final int SOLAR_SYSTEM_HEIGHT = 750;
+        int w = 740;
+        int h = 740;
+        final int SOLAR_SYSTEM_WIDTH = w;
+        final int SOLAR_SYSTEM_HEIGHT = h;
 
         solarSystemFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
