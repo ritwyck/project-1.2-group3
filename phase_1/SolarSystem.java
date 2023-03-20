@@ -18,7 +18,7 @@ public class SolarSystem extends JPanel
         {
             double x = Math.random()*1400;
             double y = Math.random()*750;
-            Line2D.Double star = new Line2D.Double(x, y, x+1,y);
+            Line2D.Double star = new Line2D.Double(x, y, x,y);
             g2D.draw(star);
         }
        
